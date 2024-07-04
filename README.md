@@ -47,6 +47,12 @@ npm run lint
 ## commit
 
 ```bash
+git commit -m 'feat: 增加 xxx 功能'
+```
+
+type 类型
+
+```bash
 feat：新功能
 fix：Bug修复
 docs：仅文档修改
