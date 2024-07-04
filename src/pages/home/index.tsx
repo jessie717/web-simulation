@@ -1,4 +1,5 @@
 import { defineComponent } from 'vue'
+import Test from '@/components/test'
 
 export default defineComponent({
   name: 'HomeView',
@@ -6,6 +7,7 @@ export default defineComponent({
     return () => (
       <>
         <div class='text-2xl text-red-400 p-4'>hello vue tsx</div>
+        <Test msg={'tsx'} />
       </>
     )
   }
